@@ -85,7 +85,7 @@ With the serverless model that Logic Apps uses, the service automatically scales
   - You can also use one of these authorization schemes to limit access to your logic app:
 
     - [Shared access signatures (SAS)][Generate shared access signatures (SAS)].
-    - [Azure Active Directory Open Authentication (Azure AD OAuth)][Enable Azure Active Directory Open Authentication (Azure AD OAuth)].
+    - [OAuth 2.0 with Microsoft Entra ID][Enable Azure Active Directory Open Authentication (Azure AD OAuth)].
 
 - Consider using [Azure role-based access control (Azure RBAC)][What is Azure role-based access control (Azure RBAC)?] to only [permit specific users or groups to manage, edit, and view your logic apps][Access to logic app operations].
 
@@ -177,7 +177,7 @@ Principal authors:
 [Restrict access by IP address range]: /azure/logic-apps/logic-apps-securing-a-logic-app?tabs=azure-portal#restrict-access-by-ip-address-range
 [Restrict inbound IP addresses]: /azure/logic-apps/logic-apps-securing-a-logic-app#restrict-inbound-ip-addresses
 [Secure data in run history by using obfuscation]: /azure/logic-apps/logic-apps-securing-a-logic-app?tabs=azure-portal#secure-data-in-run-history-by-using-obfuscation
-[Serverless web application]: ../../reference-architectures/serverless/web-app.yml
+[Serverless web application]: /azure/architecture/serverless-quest/reference-architectures
 [SQL Server 2019 pricing]: https://www.microsoft.com/sql-server/sql-server-2019-pricing
 [SQL Server]: /sql/?view=sql-server-ver15
 [Stored Procedures (Database Engine)]: /sql/relational-databases/stored-procedures/stored-procedures-database-engine?view=sql-server-ver15
